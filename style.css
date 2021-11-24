@@ -1,0 +1,97 @@
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgba(42, 148, 235, 0.548);
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*This Main is for main box*/
+#Main{
+    display: flex;
+    background-color: rgba(195, 228, 76, 0.253);
+    width: 90vw;
+   
+    padding: 20px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    align-self: center;
+    flex-wrap: wrap;
+    border: 2px dashed green;
+    margin: 30px;
+    
+}
+
+
+
+/*This Subcontainer's is for subboxe's*/
+
+
+#otherbox , #mybox{
+display: flex;
+flex-direction: column;
+margin: 10px;
+
+width: 30em;
+height: 30em;
+overflow-y: auto;
+
+justify-content: center;
+border-radius: 10px;
+background-color: rgb(37, 159, 196);
+border: 8px double snow;
+
+}
+
+
+
+#control{
+   width: 100vw;
+   height: 14em;
+   background-color: rgba(255, 228, 196, 0.685);
+   display: flex;
+   flex-direction: column;
+   border-radius: 5px;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgb(222, 255, 212);
+}
+
+#id{
+    padding: 10px;
+    margin: 10px;
+    width: 70vw;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 17px;
+    color: rgb(82, 90, 92);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid rgb(19, 168, 255);
+}
+#btn,#btn1{
+    letter-spacing: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(62, 241, 173, 0.466);
+    color: rgb(108, 55, 255);
+}
+
+
+video{
+    
+    width: 99%;
+    
+    background-color: black;
+    border-radius: 5px;
+   
+    align-self: center;
+    border: 1px solid rgb(0, 255, 98);
+}
